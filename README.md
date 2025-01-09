@@ -71,7 +71,7 @@ Implements the `IReceiver` interface for receiving and utilizing the flash loan:
 
 1. Run the test suite using Hardhat:
    ```bash
-   npx hardhat test
+   npx hardhat test test/FlashLoan.js
 
 2. Key Test Cases:
 - Ensure token balance is transferred to the flash loan pool during deployment.
@@ -92,7 +92,7 @@ We welcome contributions to enhance the functionality and usability of the Flash
 2. **Clone the Repository**: 
    - Clone the forked repository to your local machine:
      ```bash
-     git clone https://github.com/<your-username>/flash-loan.git
+     git clone https://github.com/ayushn2/flash-loan.git
      cd flash-loan
      ```
 
